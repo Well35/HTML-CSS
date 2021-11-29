@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    /*adds a width, height, and border to all ps and h1s under div*/
+    div p,h1{
+        width:50cm;
+        height:7cm;
+        border:tomato;
+        border-style:solid;
+    } 
+    /*changes all ps in the class "class" to the color blue*/
+    p.class {
+        color:blue;
+    }
+    /*changes the color of div with the id h to medium orchid*/
+    #h {
+        color: mediumorchid;
+    } 
+    /*changes all p elements to white*/
+    p {
+        color:white;
+    }
+    /*changes the element h1 to the color black*/
+    h1 {
+        color:black;
+    }
+    /*changes the color of all elements with the class "class" to yellow*/
+    .class {
+        color:yellow;
+    }
+    /*changes the color of all p elements under a div element to the color whitesmoke*/
+    div p{
+        color:whitesmoke;
+    }
+    /*changes the color of all h elements under a div element to the color wheat*/
+    div h{
+        color:wheat;
+    }
+    /*changes the color of all p tags directly beneath a div to tomato*/
+    div > p{
+        color:tomato;
+    }
+    /*changes the color of all p tags that are a sibling of a div to turquoise*/
+    div + p{
+        color:turquoise;
+    }
+    /*changes the color of all p and h1 elements under a div to the color blue*/
+    div p,h1{
+        color:blue;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<div id="h">
+    <h1>h1 element</h1>
+</div>
+<body>
+<div>
+    <p>p element</p>
+    <p class="class">p element within "class"</p>
+    <p class="class">p element within "class"</p>
+    <p class="class">p element within "class"</p>
+</div>
+</body>
+</html>
