@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .list {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        border-bottom: 5px solid red;
+        justify-content: center;
+        border: 2px solid red;
+    }
+    .text {
+        padding-left: 10px;
+        width: 100%;
+        border: 2px solid red;
+    }
+    .list > p {
+        padding-right: 20px;
+    }
+    @media screen and (min-width: 800px) {
+        .list {
+            width: 10%;
+            height: 320px;
+            border-bottom: 2px solid red;
+            border-right: 5px solid red;
+            display: block;
+        }
+        .text {
+            width: 55%;
+        }
+        .list > p {
+            padding-left: 10px;
+            padding-bottom: 13px;
+        }
+    }
+</style>
+<body>
+    <div class="list">
+        <p>Home</p>
+        <p>Taco Menu</p>
+        <p>Draft List</p>
+        <p>Hours</p>
+        <p>Directions</p>
+        <p>Contact</p>
+    </div>
+    <div class="text">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum earum ducimus laborum rem, reiciendis omnis blanditiis, odio unde animi eaque rerum! Pariatur praesentium, voluptatem cupiditate ipsum ea mollitia fugit porro!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem officia assumenda ipsa earum architecto voluptatem inventore voluptatum esse aliquam! Aut est facilis neque natus rem non totam. Autem, incidunt temporibus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis est architecto dicta quasi eligendi similique itaque! Nemo consectetur asperiores aliquid minus, quisquam voluptatem quia? Sequi minima consequuntur quod impedit
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed facere libero repudiandae exercitationem. Quas accusantium, aspernatur explicabo doloribus, modi distinctio sunt illo hic odit veniam voluptas aliquam tenetur similique eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat assumenda atque minima excepturi error tempora repellendus recusandae sit quas at! Ipsum asperiores expedita numquam nostrum maxime saepe, quod a porro?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis nulla unde quod. Alias, voluptatem ut veniam fugiat, velit dolorem illum quae sunt recusandae eaque delectus fuga ullam explicabo a sit.
+        </p>
+        <p>Notice what happens when you resize your browser. It works nicely!</p>
+    </div>
+</body>
+</html>
