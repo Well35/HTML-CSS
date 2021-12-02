@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        border: 3px solid red;
+        margin: 0 auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    div {
+        justify-content: center;
+        align-items: flex-start;
+        height: 150px;
+    }
+    #one {
+        background-color: darkblue;
+        width: 60%;
+    }
+    #two {
+        background-color: blue;
+        width: 40%;
+    }
+    #three {
+        background-color: lightblue;
+        width: 30%;
+    }
+    #four {
+        background-color: white;
+        flex-grow: 1;
+    }
+</style>
+<body>
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+    <div id="four"></div>
+</body>
+</html>
