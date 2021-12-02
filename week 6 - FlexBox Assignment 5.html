@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .one, .two, .three {
+        height: 150px;
+        width: 100%;
+        color: white;
+        font: bold;
+    }
+    .one {
+        height: 310px;
+        width: 25%;
+        background-color: darkblue;
+    }
+    .two {
+        background-color: blue;
+    }
+    .three {
+        background-color: lightblue;
+    }
+    .c {
+        width: 70%;
+        border: 3px solid red;
+    }
+</style>
+<body>
+    <div class="one">one</div>
+    <div class="c">
+        <div class="two">two</div>
+        <div class="three">three</div>
+    </div>
+</body>
+</html>
