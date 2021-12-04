@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        display: flex;
+        height: 100px;
+        width: 100px;
+        background-color: tomato;
+        border: 2px solid black;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+        font-size: xx-large;
+    }
+    #relative {
+        position: relative;
+        left: 200px;
+    }
+    #abs {
+        font-size: small;
+        height: 25px;
+        width: 25px;
+        position: absolute;
+        top: 73px;
+        left: 73px;
+        background-color: darkblue;
+        color: white;
+    }
+</style>
+<body>
+<div>one</div>
+<div id="relative">two
+    <div id="abs">abs</div>
+</div>
+<div>three</div>
+<div id="relative">four</div>
+</body>
+</html>
