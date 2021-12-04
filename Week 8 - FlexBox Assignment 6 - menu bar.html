@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Flexbox Menu</title>
+</head>
+<style>
+    ul {
+        display:flex;
+        flex-flow: column nowrap;
+        background: deepskyblue;
+        list-style: none;
+    }
+    a {
+        text-align: center;
+        text-decoration: none;
+        color: whitesmoke;
+        display: block;
+        padding: 20px;
+        border-top: 1px solid lightblue;
+        border-bottom: 1px solid lightblue;
+    }
+    @media screen and (min-width: 600px) {
+        ul {
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
+        }
+        a {
+            padding: 20px;
+        }
+    }
+</style>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</body>
+</html>
