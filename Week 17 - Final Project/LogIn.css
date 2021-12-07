@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#background {
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+    filter: brightness(50%);
+    position: absolute;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.box {
+    position: relative;
+    height: 200px;
+    width: 400px;
+    left: 200px;
+    top: 200px;
+    padding: 50px;
+    background-color: blue;
+}
+#logo {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    mix-blend-mode: multiply;
+    left: 100px;
+    top: 100px;
+}
+input[type=submit], input[type=button] {
+    background-color: green;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: inline;
+    float: left;
+}
+input[type="submit"] {
+    cursor: not-allowed;
+    opacity: .7;
+    float: right;
+}
+  
