@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .first {
+        height: 200px;
+        width: 100%;
+        background-color: yellow;
+        border: 10px solid blue;
+    }
+    .border {
+        border: 10px solid green;
+    }
+    .second {
+        height: 250px;
+        width: 20%;
+        background-color: lightblue;
+        border: 4px solid black;
+        border-right: 10px solid black;
+    }
+    .third {
+        height: 250px;
+        flex-grow: 1;
+        background-color: lightgreen;
+        border: 4px solid black;
+    }
+    .fourth {
+        height: 200px;
+        width: 100%;
+        background-color: purple;
+        border: 10px solid red;
+    }
+</style>
+<body>
+    <div class="first"></div>
+    <div class="border">
+        <div class="second"></div>
+        <div class="third"></div>
+    </div>
+    <div class="fourth"></div>
+</body>
+</html>
